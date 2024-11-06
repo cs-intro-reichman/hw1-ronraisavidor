@@ -15,7 +15,7 @@ public class Bill3 {
 
         //Calculating each person share from the final bill, and print the final result
         double share = Math.ceil((double)billSum / 3);
-        System.out.printf("Dear %s, %s, and %s: please pay %.2f Shekels each.%n", 
-                          person1, person2, person3, share);
+        System.out.printf("Dear %s, %s, and %s: pay %.2f Shekels each.%n", 
+                          person3, person2, person1, share);
 	}
 }
